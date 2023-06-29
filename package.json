@@ -35,7 +35,6 @@
     "hsluv": "^0.0.3"
   },
   "devDependencies": {
-    "@framerjs/router": "1.0.0",
     "@testing-library/dom": "^8.19.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
