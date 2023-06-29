@@ -11,16 +11,16 @@ function exec(command: string, options?: any) {
 async function main() {
     // create a branch with current date, fetch framer package from npm and merge all of it's files into the current files
     const date = new Date()
-    const branchName = `framer-${date.getFullYear()}-${
-        date.getMonth() + 1
-    }-${date.getDate()}`
+    // const branchName = `framer-${date.getFullYear()}-${
+    //     date.getMonth() + 1
+    // }-${date.getDate()}`
     exec(`git checkout main`)
-    try {
-        exec(`git checkout -b ${branchName}`)
-    } catch (e) {
-        console.log('branch already exists')
-        exec(`git checkout ${branchName}`)
-    }
+    // try {
+    //     exec(`git checkout -b ${branchName}`)
+    // } catch (e) {
+    //     console.log('branch already exists')
+    //     exec(`git checkout ${branchName}`)
+    // }
 
     const tempDir = '/tmp/framer'
 
@@ -32,13 +32,13 @@ async function main() {
         stdio: 'inherit',
         cwd: tempDir,
     })
-    exec(`git add .`, )
-    exec(`git commit -m "chore: update framer"`)
-    exec(`git checkout main`)
-    exec(`git merge ${branchName}`, {
-        stdio: 'inherit',
-        cwd: tempDir,
-    })
+    // exec(`git add .`, )
+    // exec(`git commit -m "chore: update framer"`)
+    // exec(`git checkout main`)
+    // exec(`git merge ${branchName}`, {
+    //     stdio: 'inherit',
+    //     cwd: tempDir,
+    // })
 }
 
 main()
