@@ -58,6 +58,7 @@
     "rollup-plugin-dts": "^5.1.0",
     "semver": "^7.3.8",
     "style-value-types": "^5.1.2",
+    "tsx": "^3.12.7",
     "typescript": "^4.9.4",
     "yargs": "^17.6.2"
   },
