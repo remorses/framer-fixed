@@ -6,6 +6,12 @@ This repository contains the npm `framer` package with some fixes
 -   removed `import process from 'process'
 -   upgraded broken `framer-motion` package
 
+# Installation
+
+```
+npm i https://github.com/remorses/framer-fixed
+```
+
 # Framer Library
 
 The Framer library is the code that drives Framer projects and components. It helps you build from simple interactive components to whole apps.
