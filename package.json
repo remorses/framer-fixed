@@ -63,7 +63,7 @@
     "yargs": "^17.6.2"
   },
   "peerDependencies": {
-    "framer-motion": "^7.6.12",
+    "framer-motion": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
