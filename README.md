@@ -1,3 +1,11 @@
+# Forked and fixed framer npm package
+
+This repository contains the npm `framer` package with some fixes
+
+-   installed missing dependencies
+-   removed `import process from 'process'
+-   upgraded broken `framer-motion` package
+
 # Framer Library
 
 The Framer library is the code that drives Framer projects and components. It helps you build from simple interactive components to whole apps.
