@@ -12,8 +12,7 @@
     "build",
     "CHANGELOG.md",
     "README.md",
-    "LICENSE.md",
-    "postinstall.cjs"
+    "LICENSE.md"
   ],
   "types": "./build/index.d.ts",
   "author": "Framer",
@@ -24,8 +23,7 @@
     "lint": "yarn :eslint ./src --ext .ts,.tsx --format codeframe --quiet",
     "lint:fix": "yarn lint --fix",
     "test": "yarn :jest",
-    "watch": "yarn :jest --watch",
-    "postinstall": "node postinstall.cjs"
+    "watch": "yarn :jest --watch"
   },
   "dependencies": {
     "@juggle/resize-observer": "^3.3.1",
