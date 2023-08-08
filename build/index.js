@@ -57,4 +57,10 @@ export { addPropertyControls, getPropertyControls } from "./utils/addPropertyCon
 export function Frame() {
     throw new Error("<Frame> has been deprecated. Please use <motion.div>");
 }
+
+export function useLocaleInfo() {
+    return {
+        activeLocale: 'en-US',
+    }
+}
 //# sourceMappingURL=index.js.map
