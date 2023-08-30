@@ -23,7 +23,7 @@ export { Page } from "./components/Page/EmulatedPage.js";
 export { Scroll } from "./components/Scroll/Scroll.js";
 export { Stack } from "./components/Stack/Stack.js";
 export { cx } from "./modules/cx.js";
-export { Link } from "./modules/Link.js";
+export { Link, resolveLink } from "./modules/Link.js";
 export { useActiveVariantCallback } from "./modules/useActiveVariantCallback.js";
 export { useAddVariantProps } from "./modules/useAddVariantProps.js";
 export { useDataRecord } from "./modules/useDataRecord.js";
@@ -48,6 +48,7 @@ export { ControlType } from "./render/types/PropertyControls.js";
 export { RenderTarget } from "./render/types/RenderEnvironment.js";
 export { transformTemplate } from "./render/utils/transformTemplate.js";
 export { useRouteAnchor, useRouteHandler } from "./router/index.js";
+export { useRouter } from "./router/stub.js";
 export { addFonts, getFonts } from "./utils/addFonts.js";
 export { addPropertyControls, getPropertyControls } from "./utils/addPropertyControls.js";
 /**
