@@ -39,7 +39,7 @@ export class FontStore {
      * their fonts on render. Otherwise font loading is the responsibility of
      * the environment.
      */
-    enabled = false;
+    enabled = true;
     bySelector = new Map();
     getGoogleFontsListPromise;
     loadedSelectors = new Set();
