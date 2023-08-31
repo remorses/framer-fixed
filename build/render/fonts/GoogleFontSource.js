@@ -31,7 +31,7 @@ export class GoogleFontSource {
         this.byFamily.set(typeface.family, typeface);
     }
     // end of duplication
-    importFonts(webFonts) {
+    importFonts(webFonts=[]) {
         let fontLocators = [];
         webFonts.forEach(webFont => {
             const locators = webFont.variants.map(variant => ({
