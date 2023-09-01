@@ -54,3 +54,5 @@ export { addPropertyControls, getPropertyControls } from "./utils/addPropertyCon
  */
 export declare function Frame(): void;
 //# sourceMappingURL=index.d.ts.map
+
+export {combinedCSSRules} from "./render/utils/injectComponentCSSRules.js";
