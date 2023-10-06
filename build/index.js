@@ -65,4 +65,7 @@ export function useLocaleInfo() {
         activeLocale: 'en-US',
     }
 }
+export function useLocaleCode() {
+    return 'en-US'
+}
 //# sourceMappingURL=index.js.map
