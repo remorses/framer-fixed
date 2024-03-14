@@ -16845,7 +16845,7 @@ var combineCSSRules = (isPreview,) => [
   ...resetCSS,
   ...hideScrollbars,
 ];
-var combinedCSSRules = combineCSSRules(false,);
+export var combinedCSSRules = combineCSSRules(false,);
 var combinedCSSRulesForPreview = combineCSSRules(true,);
 var didInject = false;
 function injectComponentCSSRules() {
