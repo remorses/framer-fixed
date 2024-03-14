@@ -6,8 +6,7 @@
   "private": true,
   "exports": {
     ".": "./dist/framer.js",
-    "./package.json": "./package.json",
-    "./*": "./build/*"
+    "./package.json": "./package.json"
   },
   "files": [
     "build",
